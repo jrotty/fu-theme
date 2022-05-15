@@ -36,14 +36,18 @@
                             <!--   a.nav-link.nav-menu-main.menu-toggle.hidden-xs(href='#')-->
                             <!--     i.ficon.feather.icon-menu-->
                             <li class="nav-item"><a  q class="nav-link" href="/"><i class="ficon feather icon-home"></i></a></li>
-                           
+                            <li class="nav-item"><a  q class="nav-link" href=""><i class="ficon feather icon-refresh-ccw"></i></a></li>
+
                         </ul>
                         
                     </div>
                     <ul class="nav navbar-nav float-right">
 
-                        <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-expand"><i class="ficon feather icon-maximize"></i></a></li>
-                        
+                        <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
+                                <div class="user-nav d-sm-flex d-none"><span class="user-name text-bold-600"><?$this->options->name();?></span><span class="user-status"></span></div><span><img class="round" src="<?$this->options->avatar();?>" alt="avatar" height="40" width="40"></span>
+                            </a>
+
+                        </li>
                       
                     </ul>
                 </div>

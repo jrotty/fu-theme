@@ -2,7 +2,7 @@
 /**
  * 花里胡哨的Typecho主题
  * @package Fu Theme
- * @version 1.0
+ * @version 1.1
  * @author Finxel
  * @link https://github.com/finxel/fu-theme
  */
@@ -22,15 +22,10 @@ $this->need('header.php');
                                     </a>
 									<div class="card-body">
                                         <h4 class="card-title"><?php $this->title() ?></h4>
-                                        <p class="card-text"><i class="feather icon-user"></i><?php $this->author(); ?></p>
+                                        <p class="card-text"><i class="feather icon-user"></i><?$this->options->name();?></p>
                                     </div>
-									<div class="card-footer text-muted">
-									                                    <span class="float-left"><?php $this->date(); ?></span>
-									                                    <span class="float-right">
-									                                        <a href="<?php $this->permalink() ?>" class="card-link">Read More</a>
-									                                    </span>
-									                                </div>
-									
+
+
                                 </div>
                             </div>
                         </div>

@@ -15,11 +15,9 @@
                                     <div class="card">
                                         <div class="card-content">
         									<a href="<?php $this->permalink() ?>">
-                                            <img class="card-img-top img-fluid" src="/usr/themes/fu-theme/assets/cover/<?php echo rand(1,7);?>.jpg" alt="Card image cap" />
                                             <div class="card-body">
                                                 <h4 class="card-title"><?php $this->title() ?></h4>
-                                                <p class="card-text"><?php $this->content('- 阅读剩余部分 -'); ?></p>
-                                                <p class="card-text"><i class="feather icon-user"></i><?php $this->author(); ?></p>
+                                                <p class="card-text"><i class="feather icon-user"></i><?$this->options->name();?></p>
                                                 <p class="card-text"><small class="text-muted"><?php $this->date(); ?></small></p>
                                             </div></a>
                                         </div>
