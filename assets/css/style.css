@@ -9,3 +9,16 @@ NOTE:
 ------
 PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
 WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.card-content img {
+    max-width: 100%;
+}
+
+ol.page-navigator {
+    display: flex;
+    padding-left: 14px;
+}
+ol.page-navigator li {
+    list-style: none;
+    margin-right: 10px;
+}
