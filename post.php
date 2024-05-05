@@ -14,6 +14,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                       <?php $this->need('comments.php'); ?>
                                 </div>
 								<div class="col-xs-12 col-md-4">
 									<div class="card">
@@ -41,9 +42,12 @@
 																		                                        </li>
 								                                     
 								                                </div>
-								                            </div></div></div>
+								                            </div></div>
+								                            
+ 
+								                            </div>
 
-    <?php $this->need('comments.php'); ?>
+
 
         
 
